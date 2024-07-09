@@ -1,0 +1,48 @@
+.game-types {
+  background-color: var(--bg-black);
+}
+
+.game-types__flexs {
+  display: flex;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.game-type1 {
+  background-image: url(../images/game-types/bg1.svg);
+  width: 480px;
+  height: 732px;
+}
+.game-type2 {
+  background-image: url(../images/game-types/bg2.svg);
+  width: 480px;
+  height: 732px;
+}
+.game-type3 {
+  background-image: url(../images/game-types/bg3.svg);
+  width: 480px;
+  height: 732px;
+}
+.game-type1,
+.game-type2,
+.game-type3 {
+  display: flex;
+  justify-content: center;
+}
+.game-type1_1,
+.game-type2_2,
+.game-type3_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game-type__h1 {
+  font-family: Orbitron;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: center;
+  color: var(--bg-white);
+  margin-top: 30px;
+}

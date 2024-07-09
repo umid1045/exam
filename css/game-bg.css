@@ -1,0 +1,76 @@
+.game-bg {
+  background-image: linear-gradient(
+    to right,
+    var(--bg-black) 50%,
+    var(--bg-blue) 50%
+  );
+}
+.game-bg__flexs {
+  display: flex;
+  padding: 180px 0 250px 0;
+}
+.game-bg__fire {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.game-bg__fire--h6 {
+  font-family: Orbitron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  color: var(--bg-blue);
+  text-transform: uppercase;
+}
+.game-bg__h1 {
+  max-width: 656px;
+  width: 656px;
+  height: 258px;
+  font-family: Orbitron;
+  font-size: 66px;
+  font-weight: 400;
+  line-height: 86px;
+  text-align: left;
+  color: var(--bg-white);
+  padding-top: 16px;
+}
+.game-bg__h1 {
+  position: relative;
+}
+.line-img {
+  position: absolute;
+  bottom: 60px;
+  right: 52px;
+}
+.game-bg__p {
+  font-family: Orbitron;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #999999;
+  padding-top: 44px;
+}
+.game-bg__btn {
+  padding-top: 54px;
+}
+.game-bg__link--1 {
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--bg-white);
+  padding: 21px 34px;
+  background-color: var(--bg-blue);
+}
+.game-bg__link--2 {
+  font-family: Orbitron;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: var(--bg-white);
+  padding-left: 40px;
+}

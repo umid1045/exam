@@ -1,0 +1,39 @@
+.our-sponsors {
+  background-color: var(--bg-yellow);
+}
+
+.our-sponsors__flex {
+  padding: 130px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-sponsors__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 44px;
+}
+.our-sponsors__h1 {
+  margin-top: 2px;
+  font-family: Orbitron;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  text-align: center;
+  color: var(--bg-black);
+}
+.our-sponsors__p {
+  margin-top: 28px;
+  font-family: Orbitron;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  text-align: center;
+  color: #555555;
+}
+.our-sponsors__brand {
+  display: flex;
+  gap: 35px;
+}
